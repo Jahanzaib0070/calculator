@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import App1 from "./App1";
+import App2 from "./App2";
 import "./index.css";
 
 ReactDOM.render(
-  <App1 /> , document.getElementById("root")
+  <App2 /> , document.getElementById("root")
 );

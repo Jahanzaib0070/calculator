@@ -24,3 +24,7 @@ button{
     cursor: pointer;
     font-size: medium;
 }
+
+.main{
+    font-size: 40px;
+}
