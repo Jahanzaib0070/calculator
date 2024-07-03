@@ -1,1 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #5B84B1FF;
+}
 
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 17px 28px;
+    margin-top: 15px;
+    background-color: #FC766AFF;
+    border-radius: 30px;
+    border: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: medium;
+}
