@@ -10,7 +10,7 @@ const App3 = ()=>{
     }
 
     //Changing Font using useState Hook
-    const myFont = "Bungee Inline";
+    const myFont = "'Ga Maamli', sans-serif";
     const [currFont , setFont] = useState(myFont);
     const fontChange = () => {
         setFont("Bungee Inline");
@@ -18,7 +18,7 @@ const App3 = ()=>{
    
     return(
         <>
-            <div style={{backgroundColor: bgColor, fontFamily: myFont}}>
+            <div style={{backgroundColor: bgColor, fontFamily: currFont}}>
                 <button onClick ={() =>{
                     bgChange()
                     fontChange()
