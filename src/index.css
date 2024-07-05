@@ -37,7 +37,7 @@ button{
     padding: 8px 20px;
     border-style:solid;
     text-align: center;
-    width: 30%;
+    width: 100%;
     outline: none;
     border-width: 2px;
 }
