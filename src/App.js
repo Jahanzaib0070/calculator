@@ -23,15 +23,18 @@ const App = () => {
   }
   return(
     <>
+    <div className="main">
       <form onSubmit ={saveText}>
-        <div>
-          <h1 id="text1">Hello {`${firstName} ${lastName}`}</h1>
-          <input className="inputText" type="text" placeholder="Enter Your First Name" onChange={newText} value={name}/>
-          <br />
-          <input className="inputText" type="text" placeholder="Enter Your Last Name" onChange={newTexttwo} value={lName}/>
-          <button type="submit" >Submit</button>
-        </div>
-      </form>
+          <div className="form1">
+            <h1 id="text1">{`Hello! ${firstName} ${lastName}`}</h1>
+            <input className="inputText" type="text" placeholder="Enter Your First Name" onChange={newText} value={name}/>
+            <br />
+            <input className="inputText" type="text" placeholder="Enter Your Last Name" onChange={newTexttwo} value={lName}/>
+            <button type="submit" >Submit</button>
+          </div>
+        </form>
+    </div>
+      
     </>
   );
 }
